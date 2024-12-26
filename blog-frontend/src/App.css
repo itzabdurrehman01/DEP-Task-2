@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3a3f44;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #282c34;
+  padding: 0.8rem;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #61dafb;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #3a3f44;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; /* Ensure the button is treated as a block element */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+input, textarea {
+  width: 96%;
+  padding: 0.8rem;
+  margin: 0.8rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.blog-preview {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.blog-preview h2 {
+  color: #3a3f44;
+}
+
+.blog-preview a {
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.blog-preview a:hover {
+  color: #21a1f1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
